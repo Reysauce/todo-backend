@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api", (req, res) => {
-  res.json({ message: "Hello from server!" });
+  res.json({ message: "Hello from Rey!" });
 });
 
 app.listen(5000, () => {
